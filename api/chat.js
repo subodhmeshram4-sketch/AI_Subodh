@@ -24,7 +24,7 @@ export default async function handler(req, res) {
         "Authorization": `Bearer ${API_KEY}`,
       },
       body: JSON.stringify({
-        model: "openai/gpt-oss-120b",
+        model: "test-model-123",
         max_tokens: 1024,
         messages: [
           {
